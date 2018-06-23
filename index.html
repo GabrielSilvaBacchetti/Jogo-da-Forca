@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Jogo da Forca</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+
+	<script type="text/javascript" src="script.js"></script>
+
+    <h1 id="title" align="center">Jogo da Forca</h1>
+
+	<div id="site">
+        <center><img src="Imagens/Forca.png" id="Forca"></center>
+        <div id="answerblocks" align="center">
+        	<img src="Imagens/BlackSpace.png" id="block0" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block1" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block2" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block3" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block4" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block5" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block6" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block7" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block8" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block9" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block10" style="display: none;">
+        	<img src="Imagens/BlackSpace.png" id="block11" style="display: none;">
+        </div>
+        <h1 align="center">Erros :</h1>
+        <div id="shots" align="center">
+			<img src="Imagens/BlackSpace.png" id="erro0">
+        	<img src="Imagens/BlackSpace.png" id="erro1">
+	       	<img src="Imagens/BlackSpace.png" id="erro2">
+	       	<img src="Imagens/BlackSpace.png" id="erro3">
+	       	<img src="Imagens/BlackSpace.png" id="erro4">
+	       	<img src="Imagens/BlackSpace.png" id="erro5">
+		</div>
+		<div align="center">
+			<button id="jogardenovo" onClick="location.reload();" style="display: none;">Jogar Novamente</button>
+		</div>
+		<div id="Keyboard" align="center">	
+			<div id="KeyboardTop">
+				<button id="Q" onclick="letterChange('Q')" class="teclado">Q</button>
+				<button id="W" onclick="letterChange('W')" class="teclado">W</button>
+				<button id="E" onclick="letterChange('E')" class="teclado">E</button>
+				<button id="R" onclick="letterChange('R')" class="teclado">R</button>
+				<button id="T" onclick="letterChange('T')" class="teclado">T</button>
+				<button id="Y" onclick="letterChange('Y')" class="teclado">Y</button>
+				<button id="U" onclick="letterChange('U')" class="teclado">U</button>
+				<button id="I" onclick="letterChange('I')" class="teclado">I</button>
+				<button id="O" onclick="letterChange('O')" class="teclado">O</button>
+				<button id="P" onclick="letterChange('P')" class="teclado">P</button>
+			</div><br>
+			<div id="KeyboardMid">
+				<button id="A" onclick="letterChange('A')" class="teclado">A</button>
+				<button id="S" onclick="letterChange('S')" class="teclado">S</button>
+				<button id="D" onclick="letterChange('D')" class="teclado">D</button>
+				<button id="F" onclick="letterChange('F')" class="teclado">F</button>
+				<button id="G" onclick="letterChange('G')" class="teclado">G</button>
+				<button id="H" onclick="letterChange('H')" class="teclado">H</button>
+				<button id="J" onclick="letterChange('J')" class="teclado">J</button>
+				<button id="K" onclick="letterChange('K')" class="teclado">K</button>
+				<button id="L" onclick="letterChange('L')" class="teclado">L</button>
+				<button id="Ç" onclick="letterChange('Ç')" class="teclado">Ç</button>
+			</div><br>	
+			<div id="KeyboardBot">
+				<button id="Z" onclick="letterChange('Z')" class="teclado">Z</button>
+				<button id="X" onclick="letterChange('X')" class="teclado">X</button>
+				<button id="C" onclick="letterChange('C')" class="teclado">C</button>
+				<button id="V" onclick="letterChange('V')" class="teclado">V</button>
+				<button id="B" onclick="letterChange('B')" class="teclado">B</button>
+				<button id="N" onclick="letterChange('N')" class="teclado">N</button>
+				<button id="M" onclick="letterChange('M')" class="teclado">M</button>
+			</div><br>
+		</div>
+	</div>
+</body>
+</html>
